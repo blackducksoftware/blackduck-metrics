@@ -55,7 +55,7 @@ The output of the tool is a zip file containing the raw CSV files and XLSX file.
 
 **Security Considerations**
 
-The tool will extract data from Black Duck and place it in the CSV and XLSX file within the output zip file.  Please review the contents of these files and ensure you are comfortable with sending this data before sending these files to anyone.
+The tool will extract data from Black Duck and place it in CSV and XLSX files within the output zip file.  Please review the contents of these files and ensure you are comfortable with sending this data before sending these files to anyone.
 
 **Command Line Arguments**
 
