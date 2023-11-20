@@ -10,6 +10,12 @@ The utility extracts information from the entire system (provided the correct pe
 
 This utility is designed to help review Black Duck usage but should be used only periodically.  This solution is not designed to optimally extract data from Black Duck to synchronize with other systems or for daily monitoring.  This solution is designed for quarterly reviews of Black Duck usage.
 
+For further reporting needs there are plenty of options:
+
+1. The Black Duck reporting database : https://sig-product-docs.synopsys.com/bundle/bd-hub/page/ReportingDatabase/UsingDatabase.html
+2. Microsoft PowerBI template : https://community.synopsys.com/s/article/Blackduck-Dashboards-using-Microsoft-Power-BI
+3. Services - contact your Synopsys representative to discuss services to assist with your reporting requirements.
+
 **Pre-requisites:**
 
 
@@ -36,11 +42,6 @@ By default Black Duck Metrics will prompt for connection details to Black Duck a
 
 **Air-gapped Execution:**
  
-You can opt to leave the parameters out for a guided interactive CLI input of parameters.
-
-
-
- Extracting the data
  
 1. Download the latest version of the jar file from https://github.com/blackducksoftware/blackduck-metrics/tree/main/versions
 2. In terminal/command prompt change directory to the jar file download folder.
@@ -57,6 +58,8 @@ The output of the tool is a zip file containing the raw CSV files and XLSX file.
 The tool will extract data from Black Duck and place it in the CSV and XLSX file within the output zip file.  Please review the contents of these files and ensure you are comfortable with sending this data before sending these files to anyone.
 
 **Command Line Arguments**
+
+If you would prefer to automate running the tool you can specify the following command line parameters to skip the interactive parameter input.
 
 Parameter detail:
  - -mode - the mode to run, please specify a value of 1 (extract CSV and generate XLSX).
