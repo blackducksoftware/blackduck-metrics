@@ -8,6 +8,8 @@ Black Duck Metrics connects to your Black Duck instance and extracts data from t
 
 The utility extracts information from the entire system (provided the correct permission is granted) and extracts users, scans, policies, projects and versions including metadata such as the quantity of each level of vulnerability, e.g. the number of critical vulns in each version.  It does NOT extract the actual components that are included in projects or the vulnerabilities associated.  When you run the tool you can specify if you would like project, version and user names to be anonymised in the output, however this does make it harder to identify projects.
 
+This utility is designed to help review Black Duck usage but should be used only periodically.  This solution is not designed to optimally extract data from Black Duck to synchronize with other systems or for daily monitoring.  This solution is designed for quarterly reviews of Black Duck usage.
+
 **Pre-requisites:**
 
 
