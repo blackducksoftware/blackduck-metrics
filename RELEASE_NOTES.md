@@ -1,5 +1,9 @@
 # Release Notes:
 
+**Changes in : 2023.12.1**
+
+- Small change to ordering of observations.
+
 **Changes in : 2023.12.0**
 
 - Added automated 'observations' to summary sheet to highlight areas to focus on, including policy, scan rates, types and Sage results.
