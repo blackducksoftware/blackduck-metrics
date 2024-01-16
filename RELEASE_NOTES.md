@@ -1,5 +1,9 @@
 # Release Notes:
 
+**Changes in : 2024.1.0**
+
+- Bug fix for scan error rate percentage calculation.
+
 **Changes in : 2023.12.1**
 
 - Small change to ordering of observations.
