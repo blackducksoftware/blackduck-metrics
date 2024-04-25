@@ -1,5 +1,9 @@
 # Release Notes:
 
+**Changes in : 2024.4.0**
+
+- Bug fix for binary scan type counts.
+
 **Changes in : 2024.1.0**
 
 - Bug fix for scan error rate percentage calculation.
