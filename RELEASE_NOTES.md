@@ -1,5 +1,11 @@
 # Release Notes:
 
+**Changes in : 2024.7.0**
+
+- Project groups are now collected and listing shown in the results including how many projects and which group is the parent group.
+- Projects Summary specifies which project group the project is in.
+- Bug fix for cell size limit being breached for very large policies.
+  
 **Changes in : 2024.4.0**
 
 - Bug fix for binary scan type counts.
