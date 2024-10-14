@@ -1,6 +1,6 @@
 # Release Notes:
 
-**Changes in : 2024.7.0**
+**Changes in : 2024.10.0**
 
 - Fix to issue with scan types - BDIO was being counted as BINARY
 - Fix number of versions in violation of policy where it is a RAPID scan only policy.  It reported all versions but should have been 'NA' or not applicable as these do not apply to full versions/scans.
