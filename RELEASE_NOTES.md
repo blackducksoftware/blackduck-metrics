@@ -2,6 +2,13 @@
 
 **Changes in : 2024.7.0**
 
+- Fix to issue with scan types - BDIO was being counted as BINARY
+- Fix number of versions in violation of policy where it is a RAPID scan only policy.  It reported all versions but should have been 'NA' or not applicable as these do not apply to full versions/scans.
+- Added scan modes column to policy sheet (RAPID, FULL or RAPID;FULL)
+- Added log file to zip to aid troubleshooting when the data is not all loaded.
+
+**Changes in : 2024.7.0**
+
 - Project groups are now collected and listing shown in the results including how many projects and which group is the parent group.
 - Projects Summary specifies which project group the project is in.
 - Bug fix for cell size limit being breached for very large policies.
