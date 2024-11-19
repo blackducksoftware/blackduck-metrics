@@ -1,5 +1,10 @@
 # Release Notes:
 
+**Changes in : 2024.11.0**
+
+- Fix for issue when you add a space in the name causing a file write error
+- Fix for duplicate entries for package manager scan types.
+
 **Changes in : 2024.10.0**
 
 - Fix to issue with scan types - BDIO was being counted as BINARY
