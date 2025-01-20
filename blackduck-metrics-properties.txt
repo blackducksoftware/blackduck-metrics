@@ -8,7 +8,8 @@
   "2024.7.0" : [ "https://github.com/blackducksoftware/blackduck-metrics/raw/main/versions/blackduck-metrics-2024.7.0-jar-with-dependencies.jar" ],
   "2024.10.0" : [ "https://github.com/blackducksoftware/blackduck-metrics/raw/main/versions/blackduck-metrics-2024.10.0-jar-with-dependencies.jar" ],
   "2024.11.0" : [ "https://github.com/blackducksoftware/blackduck-metrics/raw/main/versions/blackduck-metrics-2024.11.0-jar-with-dependencies.jar" ],
-  "LATEST" : [ "https://github.com/blackducksoftware/blackduck-metrics/raw/main/versions/blackduck-metrics-2024.11.0-jar-with-dependencies.jar" ]
+  "2025.1.0" : [ "https://github.com/blackducksoftware/blackduck-metrics/raw/main/versions/blackduck-metrics-2025.1.0-jar-with-dependencies.jar" ],
+  "LATEST" : [ "https://github.com/blackducksoftware/blackduck-metrics/raw/main/versions/blackduck-metrics-2025.1.0-jar-with-dependencies.jar" ]
   },
   "uri" : "https://github.com/blackducksoftware/blackduck-metrics/"
 }

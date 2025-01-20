@@ -1,5 +1,11 @@
 # Release Notes:
 
+**Changes in : 2025.1.0**
+
+- Added project owner username to projects sheet.
+- If there are errors extracting data these will be shown on the summary page of the xlsx sheet, this is to help spot partial data load and find issues.
+- Unified the last scan date across all worksheets to be last scan date and if no scan present then the creation date of the project version.
+
 **Changes in : 2024.11.0**
 
 - Fix for issue when you add a space in the name causing a file write error
