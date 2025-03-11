@@ -1,5 +1,9 @@
 # Release Notes:
 
+**Changes in : 2025.3.0**
+
+- Bug fix for date comparator
+
 **Changes in : 2025.1.0**
 
 - Added project owner username to projects sheet.
