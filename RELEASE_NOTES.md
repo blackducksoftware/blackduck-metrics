@@ -1,5 +1,9 @@
 # Release Notes:
 
+**Changes in : 2025.4.0**
+
+- Bug fix for policies graph.
+
 **Changes in : 2025.3.0**
 
 - Bug fix for date comparator
