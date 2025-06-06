@@ -12,9 +12,9 @@ This utility is designed to help review Black Duck usage but should be used only
 
 For further reporting needs there are plenty of options:
 
-1. The Black Duck reporting database : https://sig-product-docs.synopsys.com/bundle/bd-hub/page/ReportingDatabase/UsingDatabase.html
-2. Microsoft PowerBI template : https://community.synopsys.com/s/article/Blackduck-Dashboards-using-Microsoft-Power-BI
-3. Services - contact your Synopsys representative to discuss services to assist with your reporting requirements.
+1. The Black Duck reporting database : https://documentation.blackduck.com/bundle/bd-hub/page/ReportingDatabase/UsingDatabase.html
+2. Microsoft PowerBI template : https://community.blackduck.com/s/article/Blackduck-Dashboards-using-Microsoft-Power-BI 
+3. Services - contact your Black Duck representative to discuss services to assist with your reporting requirements.
 
 **Pre-requisites:**
 
