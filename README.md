@@ -47,7 +47,7 @@ By default Black Duck Metrics will prompt for connection details to Black Duck a
 2. In terminal/command prompt change directory to the jar file download folder.
 3. Run the following command:
 
-    ```java -jar blackduck-metrics-2023.12.1-jar-with-dependencies.jar```
+    ```java -jar blackduck-metrics-2025.6.0-jar-with-dependencies.jar```
 
 **Output**
 

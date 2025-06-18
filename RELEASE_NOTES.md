@@ -1,5 +1,9 @@
 # Release Notes:
 
+**Changes in : 2025.6.0**
+
+- Running the tool with hide names turned on now includes rapid scan statistics where it did not before.
+
 **Changes in : 2025.4.0**
 
 - Bug fix for policies graph.
