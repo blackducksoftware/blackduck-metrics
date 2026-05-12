@@ -1,6 +1,6 @@
 # Release Notes:
 
-**Changes in : 2026.35.0**
+**Changes in : 2026.5.0**
 
 * New data captured - which user triggered scan in scan history csv file.
 * New worksheet - showing Scan counts triggered by each user over time.
