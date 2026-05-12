@@ -1,9 +1,20 @@
 # Release Notes:
 
+**Changes in : 2026.35.0**
+
+* New data captured - which user triggered scan in scan history csv file.
+* New worksheet - showing Scan counts triggered by each user over time.
+* Updated blackduck-common version.
+* Renamed packages.
+
+**Changes in : 2026.3.0**
+
+* Minor changes to labels
+
 **Changes in : 2025.8.0**
 
 * Fix for created at dates in scan histories that are 0 (Jan 1st 1970).  In this scenario the updated at date will also be the created date as we have no other data.
-* 
+
 **Changes in : 2025.6.0**
 
 * Running the tool with hide names turned on now includes rapid scan statistics where it did not before.
