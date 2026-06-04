@@ -1,5 +1,9 @@
 # Release Notes:
 
+**Changes in : 2026.6.0**
+
+* Fix to hide project owner name when hide names is selected.  
+
 **Changes in : 2026.5.0**
 
 * New data captured - which user triggered scan in scan history csv file.
