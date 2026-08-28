@@ -57,6 +57,25 @@ The output of the tool is a zip file containing the raw CSV files and XLSX file.
 
 The tool will extract data from Black Duck and place it in CSV and XLSX files within the output zip file.  Please review the contents of these files and ensure you are comfortable with sending this data before sending these files to anyone.
 
+Black Duck Metrics collects information from Black Duck SCA via API and can only collect information the API token has access to.  Therefore a read-only system administrator token should be used to be able to collect settings information and data from all projects in one view.
+
+We have considered data privacy carefully when designing Black Duck Metrics and the utility collects enough information to be useful without going too far, however each organisation has different data privacy requirements.  Some considerations in Black Duck Metrics are :
+- Anonymise names mode - If you choose to you can exclude project names, project version names and usernames from the output, this will also exclude the advanced diagnnostics output.
+- Statistics captured, not details - Project version level statistics and vulnerability COUNTS are collected.  The utility will not capture WHICH components are used or which vulnerabilities, just the number of critical, high, low etc.
+
+The data is extracted to CSV files by data type and this data is used to collate an Excel XLSX file with a more friendly reporting view.  If you are concerned about the data captured run the tool and view the files within the generated zip file.  When running the tool no data is sent to Black Duck and it must be manually sent after your review.  As part of the review you could choose to delete certain parts (for example to exclude users you could remove the users.csv and the associated worksheets from the XSLX file).
+
+The data types collected are:
+- Scan History metadata
+- Code Location metadata
+- Project metadata
+- Project version metadata including risk counts
+- Users and last login dates
+- Policies
+- API token usage
+- Settings (for example data retention settings)
+- Diagnostics screen output (only if anonymise is turned off, otherwise this is excluded)
+
 **Command Line Arguments**
 
 If you would prefer to automate running the tool you can specify the following command line parameters to skip the interactive parameter input.
